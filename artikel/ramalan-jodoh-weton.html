@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramalan Jodoh Weton: Panduan Lengkap Kecocokan Pasangan</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta name="description" content="Selami tradisi Jawa kuno dalam ramalan jodoh weton. Pahami neptu, perhitungan kecocokan, dan makna di balik setiap kombinasi weton untuk menemukan keharmonisan cinta sejati.">
+    <meta name="keywords" content="ramalan jodoh weton, neptu weton, primbon jodoh, kecocokan pasangan, budaya Jawa, tradisi pernikahan Jawa, arti weton, perhitungan weton">
+
+    <style>
+        :root {
+            --color-primary: hsl(190, 70%, 30%); /* Dark cyan, for headings */
+            --color-secondary: hsl(190, 70%, 50%); /* Mid cyan, for accents/links */
+            --color-text: hsl(210, 40%, 20%); /* Dark desaturated blue, for body text */
+            --color-background-light: hsl(190, 60%, 98%); /* Very light cool background */
+            --color-background-card: hsl(190, 60%, 95%); /* Slightly darker light background for cards */
+            --color-border: hsl(190, 20%, 85%); /* Light greyish cyan for borders */
+            --color-placeholder-bg: #e0f2f7; /* Light blue for image placeholders */
+            --color-placeholder-border: #a7d9eb; /* Slightly darker blue for placeholder border */
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--color-text);
+            background-color: var(--color-background-light);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background-color: var(--color-primary);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            line-height: 1.2;
+        }
+
+        main {
+            max-width: 900px;
+            width: 100%;
+            padding: 25px;
+            margin: 30px 0;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+            box-sizing: border-box;
+        }
+
+        h2, h3, h4 {
+            color: var(--color-primary);
+            margin-top: 2.5em;
+            margin-bottom: 0.8em;
+            border-bottom: 2px solid var(--color-border);
+            padding-bottom: 8px;
+        }
+
+        h2 {
+            font-size: 2.2em;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            color: var(--color-secondary);
+        }
+
+        h4 {
+            font-size: 1.4em;
+            color: var(--color-text);
+            border-bottom: 1px dashed var(--color-border);
+        }
+
+        p {
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-bottom: 1em;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+        }
+
+        a {
+            color: var(--color-secondary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--color-primary);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.95em;
+        }
+
+        table th, table td {
+            border: 1px solid var(--color-border);
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: var(--color-background-card);
+            color: var(--color-primary);
+            font-weight: bold;
+        }
+
+        table tr:nth-child(even) {
+            background-color: var(--color-background-light);
+        }
+
+        .section-card {
+            background-color: var(--color-background-card);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .img-placeholder {
+            width: 100%;
+            height: 250px; /* Adjust height as needed */
+            background-color: var(--color-placeholder-bg);
+            border: 2px dashed var(--color-placeholder-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+            color: var(--color-primary);
+            margin: 30px auto;
+            border-radius: 8px;
+            font-size: 1.1em;
+        }
+
+        footer {
+            width: 100%;
+            max-width: 900px;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            color: #888;
+            font-size: 0.9em;
+            border-top: 1px solid var(--color-border);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            main {
+                padding: 15px;
+                margin: 20px 10px;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+
+            h3 {
+                font-size: 1.5em;
+            }
+
+            h4 {
+                font-size: 1.2em;
+            }
+
+            .img-placeholder {
+                height: 180px;
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.6em;
+            }
+
+            main {
+                padding: 10px;
+                margin: 15px 5px;
+            }
+
+            h2 {
+                font-size: 1.6em;
+            }
+
+            h3 {
+                font-size: 1.3em;
+            }
+
+            h4 {
+                font-size: 1.1em;
+            }
+
+            table th, table td {
+                padding: 8px 10px;
+                font-size: 0.85em;
+            }
+
+            .img-placeholder {
+                height: 120px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ramalan Jodoh Weton: Panduan Lengkap Kecocokan Pasangan</h1>
+    </header>
+
+    <main>
+        <p>Tradisi Jawa, yang kaya akan filosofi dan kearifan lokal, menawarkan berbagai panduan untuk menjalani kehidupan yang harmonis, salah satunya adalah melalui perhitungan weton. Dalam konteks perjodohan, ramalan jodoh weton telah menjadi pegangan bagi banyak generasi untuk menyingkap potensi kecocokan antara dua insan. Ini bukan sekadar mitos, melainkan sistem perhitungan kompleks yang mencerminkan upaya memahami karakter, takdir, dan dinamika hubungan berdasarkan hari kelahiran.</p>
+
+        <p>Artikel ini akan mengupas tuntas seluk-beluk ramalan jodoh weton. Kita akan menyelami konsep dasar weton, cara perhitungan neptu, berbagai metode ramalan kecocokan, hingga analisis mendalam mengenai karakteristik setiap kombinasi weton dan dampaknya terhadap hubungan asmara. Tujuannya adalah memberikan pemahaman yang komprehensif agar Anda dapat menggunakan kearifan leluhur ini sebagai salah satu pertimbangan bijak dalam meniti bahtera rumah tangga.</p>
+
+        <div class="img-placeholder">
+            [GAMBAR_DISINI: Ilustrasi pasangan dengan motif batik Jawa]
+        </div>
+
+        <section class="section-card">
+            <h2>Memahami Dasar Weton: Hari, Pasaran, dan Neptu</h2>
+            <p>Sebelum melangkah lebih jauh ke dalam ramalan jodoh, penting untuk memahami apa itu weton dan bagaimana nilai neptunya dihitung. Weton merupakan gabungan dari hari kelahiran dalam kalender Masehi (Senin, Selasa, dst.) dengan hari pasaran dalam kalender Jawa (Legi, Pahing, Pon, Wage, Kliwon).</p>
+
+            <h3>Hari dan Nilai Neptunya</h3>
+            <p>Setiap hari dalam seminggu memiliki nilai neptu tersendiri. Neptu ini adalah angka representasi dari energi atau karakteristik hari tersebut.</p>
+            <ul>
+                <li><strong>Minggu:</strong> Neptu 5</li>
+                <li><strong>Senin:</strong> Neptu 4</li>
+                <li><strong>Selasa:</strong> Neptu 3</li>
+                <li><strong>Rabu:</strong> Neptu 7</li>
+                <li><strong>Kamis:</strong> Neptu 8</li>
+                <li><strong>Jumat:</strong> Neptu 6</li>
+                <li><strong>Sabtu:</strong> Neptu 9</li>
+            </ul>
+
+            <h3>Pasaran dan Nilai Neptunya</h3>
+            <p>Sama halnya dengan hari, setiap pasaran dalam kalender Jawa juga memiliki nilai neptu yang unik. Ada lima pasaran yang berputar secara siklis.</p>
+            <ul>
+                <li><strong>Legi:</strong> Neptu 5</li>
+                <li><strong>Pahing:</strong> Neptu 9</li>
+                <li><strong>Pon:</strong> Neptu 7</li>
+                <li><strong>Wage:</strong> Neptu 4</li>
+                <li><strong>Kliwon:</strong> Neptu 8</li>
+            </ul>
+
+            <h3>Cara Menghitung Neptu Weton</h3>
+            <p>Neptu weton seseorang didapatkan dengan menjumlahkan nilai neptu hari kelahiran dengan nilai neptu pasarannya. Sebagai contoh, jika seseorang lahir pada hari Minggu Legi, maka neptu wetonnya adalah:</p>
+            <p>Neptu Minggu (5) + Neptu Legi (5) = 10. Jadi, neptu weton orang tersebut adalah 10.</p>
+            <p>Perhitungan ini adalah fondasi utama untuk semua ramalan jodoh weton yang akan kita bahas selanjutnya. Dengan memahami neptu weton masing-masing pasangan, kita dapat mulai mengaplikasikan berbagai metode perhitungan kecocokan yang diwariskan leluhur.</p>
+
+            <div class="img-placeholder">
+                [GAMBAR_DISINI: Tabel neptu hari dan pasaran]
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Neptu</th>
+                        <th>Pasaran</th>
+                        <th>Neptu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Minggu</td>
+                        <td>5</td>
+                        <td>Legi</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>4</td>
+                        <td>Pahing</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Selasa</td>
+                        <td>3</td>
+                        <td>Pon</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Rabu</td>
+                        <td>7</td>
+                        <td>Wage</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Kamis</td>
+                        <td>8</td>
+                        <td>Kliwon</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Jumat</td>
+                        <td>6</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Sabtu</td>
+                        <td>9</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section-card">
+            <h2>Metode Ramalan Jodoh Weton Berdasarkan Total Neptu</h2>
+            <p>Setelah mendapatkan neptu weton masing-masing pasangan, langkah selanjutnya adalah menjumlahkan kedua neptu tersebut. Hasil penjumlahan ini kemudian akan dibagi atau diinterpretasikan ke dalam beberapa kategori ramalan yang sudah turun-temurun. Metode yang paling populer adalah pembagian dengan angka 8, yang dikenal dengan sebutan "Pewangan" atau "Pewon".</p>
+
+            <p>Jumlah total neptu dari kedua pasangan akan dibagi 8, dan sisa pembagian (modulus) inilah yang akan menentukan kategori ramalan jodoh mereka. Setiap sisa memiliki makna dan prediksi tersendiri mengenai arah dan tantangan hubungan.</p>
+
+            <div class="img-placeholder">
+                [GAMBAR_DISINI: Ilustrasi kalkulator sederhana untuk neptu]
+            </div>
+
+            <h3>1. PEGAT (Sisa 1 atau Total Neptu 1, 9, 17, 25, 33)</h3>
+            <p>Kategori Pegat seringkali diinterpretasikan sebagai pertanda yang kurang baik. Kata "Pegat" sendiri berarti putus atau cerai. Pasangan yang jatuh pada kategori ini diprediksi akan menghadapi berbagai masalah yang bisa berujung pada perpisahan, entah itu karena masalah ekonomi, perselingkuhan, atau bahkan kematian salah satu pasangan. Namun, interpretasi ini tidak bersifat mutlak. Banyak yang percaya bahwa dengan kesadaran akan potensi masalah ini, pasangan dapat berupaya lebih keras untuk saling mengerti dan mencari solusi bersama. Misalnya, dengan memperkuat fondasi spiritual, meningkatkan komunikasi yang jujur, dan selalu mengedepankan musyawarah mufakat dalam setiap pengambilan keputusan besar.</p>
+            <p>Secara lebih mendalam, "Pegat" menggambarkan dinamika hubungan yang rentan terhadap putus asa dan keterpisahan. Ini bisa muncul dalam bentuk ketidakcocokan visi hidup, perbedaan prinsip yang sulit dikompromikan, atau rintangan eksternal yang terus-menerus menguji kesabaran. Penting bagi pasangan dengan kategori ini untuk membangun resiliensi yang kuat, bersedia untuk "bekerja" keras dalam hubungan, dan tidak mudah menyerah pada cobaan. Mereka mungkin perlu lebih sering mencari bimbingan dari orang yang lebih tua atau penasihat pernikahan untuk menjaga ikatan.</p>
+
+            <h3>2. RATU (Sisa 2 atau Total Neptu 2, 10, 18, 26, 34)</h3>
+            <p>Pasangan yang masuk kategori Ratu sering dianggap sebagai pasangan yang paling ideal dan diberkahi. Kata "Ratu" menyiratkan kemuliaan, kehormatan, dan kebahagiaan. Hubungan mereka diprediksi akan sangat harmonis, penuh cinta, dan dihormati oleh banyak orang. Mereka akan saling melengkapi, menginspirasi, dan menjalani kehidupan rumah tangga yang penuh berkah. Orang-orang di sekitar mereka akan iri dan kagum dengan keharmonisan yang terpancar dari pasangan ini. Ratu adalah cerminan dari hubungan yang kuat secara emosional dan spiritual.</p>
+            <p>Kecocokan "Ratu" tidak hanya berarti minimnya konflik, tetapi juga adanya dukungan dan pengertian yang mendalam antara kedua belah pihak. Mereka cenderung memiliki tujuan hidup yang sejalan, nilai-nilai yang serupa, dan kemampuan untuk menyelesaikan masalah tanpa harus merusak keintiman. Pasangan Ratu juga seringkali membawa keberuntungan dan kebaikan bagi keluarga besar dan lingkungan sosial mereka. Namun, meskipun diberkahi, mereka tetap perlu menjaga komunikasi dan rasa syukur agar keharmonisan tersebut tetap lestari.</p>
+
+            <h3>3. JODOH (Sisa 3 atau Total Neptu 3, 11, 19, 27, 35)</h3>
+            <p>Sesuai namanya, kategori Jodoh menunjukkan bahwa pasangan ini memang berjodoh dan memiliki kecocokan yang sangat baik. Mereka diprediksi akan saling menerima kelebihan dan kekurangan masing-masing, menjalani rumah tangga yang rukun, tenteram, dan langgeng. Masalah mungkin saja timbul, namun mereka akan selalu menemukan jalan untuk menyelesaikannya dengan baik. Jodoh adalah fondasi yang kuat untuk membangun keluarga yang bahagia.</p>
+            <p>Pasangan "Jodoh" memiliki potensi besar untuk mencapai kebahagiaan abadi karena keselarasan batiniah mereka. Ada ikatan batin yang kuat, empati yang tinggi, dan kemampuan untuk beradaptasi dengan perubahan hidup bersama. Mereka cenderung memiliki chemistry yang alami dan mudah membangun koneksi mendalam. Meskipun demikian, seperti halnya semua hubungan, perlu adanya upaya terus-menerus untuk menjaga api cinta tetap menyala, termasuk dengan saling menghargai, memberikan ruang pribadi, dan merayakan setiap momen kebersamaan.</p>
+
+            <h3>4. TOPO (Sisa 4 atau Total Neptu 4, 12, 20, 28, 36)</h3>
+            <p>Kategori Topo menunjukkan bahwa di awal hubungan, pasangan akan menghadapi banyak kesulitan dan rintangan, seperti masalah ekonomi, perbedaan pendapat, atau bahkan jauh dari keluarga. "Topo" sendiri berarti bertapa atau prihatin, yang menyiratkan masa-masa sulit yang harus dilewati. Namun, jika mereka mampu bertahan dan melewati masa-masa sulit tersebut dengan sabar dan ikhlas, hubungan mereka akan menjadi sangat kuat dan bahagia di kemudian hari. Topo adalah ujian kesabaran yang akan berbuah manis jika dilalui dengan gigih.</p>
+            <p>Bagi pasangan "Topo", fase awal hubungan akan menjadi ajang pembentukan karakter dan fondasi emosional. Mereka mungkin diuji dengan ketidakpastian finansial, perselisihan kecil yang seringkali membesar, atau bahkan penolakan dari lingkungan sekitar. Namun, justru dari kesulitan inilah mereka akan belajar untuk saling menguatkan, menemukan solusi kreatif, dan menumbuhkan rasa saling percaya yang mendalam. Kunci keberhasilan bagi pasangan Topo adalah komitmen yang tak tergoyahkan, kemampuan untuk melihat masalah sebagai peluang untuk tumbuh, dan kesediaan untuk berjuang bersama demi masa depan yang lebih baik.</p>
+
+            <h3>5. TINARI (Sisa 5 atau Total Neptu 5, 13, 21, 29)</h3>
+            <p>Pasangan Tinari adalah kategori yang sangat diidamkan. "Tinari" berarti selalu mendapat keberuntungan, kelancaran rezeki, dan kebahagiaan dalam rumah tangga. Mereka diprediksi akan memiliki kehidupan yang berkecukupan, mudah dalam mencari nafkah, dan selalu diberkahi kebahagiaan. Hubungan mereka akan jauh dari kesulitan finansial dan konflik yang berarti. Rezeki seolah mengalir lancar, dan kebahagiaan senantiasa menyertai mereka.</p>
+            <p>Kategori "Tinari" mencerminkan kelimpahan dan keberkahan dalam berbagai aspek kehidupan, tidak hanya materi, tetapi juga spiritual dan emosional. Pasangan ini cenderung memiliki aura positif yang menarik hal-hal baik ke dalam hidup mereka. Mereka akan saling mendukung dalam mencapai tujuan finansial dan profesional, menciptakan lingkungan yang kondusif untuk pertumbuhan pribadi dan bersama. Keharmonisan mereka juga seringkali memancar ke lingkungan sekitar, menjadi inspirasi bagi orang lain. Untuk menjaga keberkahan ini, penting bagi pasangan Tinari untuk selalu bersyukur, berbagi rezeki, dan tidak lupa untuk terus berkarya.</p>
+
+            <h3>6. PADU (Sisa 6 atau Total Neptu 6, 14, 22, 30)</h3>
+            <p>Kategori Padu mengindikasikan bahwa pasangan ini seringkali bertengkar atau berselisih paham. "Padu" berarti pertengkaran. Meskipun demikian, pertengkaran mereka biasanya tidak berlarut-larut dan tidak sampai pada perceraian. Mereka cenderung mudah berdamai dan kembali rukun setelah berselisih. Pertengkaran ini bisa menjadi bumbu dalam hubungan, asalkan tidak terlalu sering dan tidak melukai hati terlalu dalam. Ini adalah hubungan yang dinamis, penuh gairah, namun juga rentan terhadap konflik.</p>
+            <p>Pasangan "Padu" mungkin memiliki karakter yang kuat dan perbedaan pendapat yang menonjol. Namun, di balik semua pertengkaran itu, ada ikatan batin yang kuat yang membuat mereka selalu kembali bersama. Tantangannya adalah bagaimana mengelola konflik agar menjadi constructive, bukan destructive. Mereka perlu belajar teknik komunikasi yang efektif, memahami pemicu kemarahan masing-masing, dan mengembangkan empati untuk melihat dari sudut pandang pasangan. Dengan latihan dan kesabaran, pertengkaran mereka bisa menjadi sarana untuk saling mengenal lebih dalam dan memperkuat ikatan.</p>
+
+            <h3>7. SUJANAN (Sisa 7 atau Total Neptu 7, 15, 23, 31)</h3>
+            <p>Kategori Sujanan adalah salah satu yang paling dihindari. "Sujanan" berarti perselingkuhan. Pasangan ini diprediksi akan menghadapi masalah perselingkuhan, entah dari pihak laki-laki maupun perempuan, yang bisa menghancurkan rumah tangga. Ini adalah peringatan keras untuk selalu menjaga kesetiaan dan komitmen. Kepercayaan akan menjadi fondasi yang rapuh jika tidak dijaga dengan hati-hati.</p>
+            <p>Sujanan tidak hanya berbicara tentang perselingkuhan fisik, tetapi juga perselingkuhan emosional atau pengkhianatan dalam bentuk lain. Ini bisa disebabkan oleh ketidakpuasan dalam hubungan, kurangnya perhatian, atau godaan dari pihak ketiga. Pasangan dengan kategori ini perlu sangat berhati-hati dalam menjaga kepercayaan, membangun komunikasi yang terbuka tentang kebutuhan dan keinginan, serta menghindari situasi yang berpotensi memicu masalah. Terapi pasangan atau konseling mungkin diperlukan untuk membangun fondasi kepercayaan yang lebih kuat dan mencegah potensi masalah ini menjadi kenyataan. Integritas dan komitmen adalah kunci utama.</p>
+
+            <h3>8. PESTHI (Sisa 8 atau Total Neptu 8, 16, 24, 32)</h3>
+            <p>Kategori Pesthi adalah pertanda baik lainnya. "Pesthi" berarti keselamatan, keharmonisan, dan ketenteraman. Pasangan ini diprediksi akan memiliki rumah tangga yang aman, tenteram, dan jauh dari berbagai masalah besar. Jika ada masalah pun, mereka akan mampu menyelesaikannya dengan baik tanpa merusak keharmonisan. Hubungan mereka akan langgeng hingga tua dan selalu dalam lindungan Tuhan. Pesthi adalah cerminan dari ketenangan dan kebahagiaan yang abadi.</p>
+            <p>Pasangan "Pesthi" memiliki fondasi hubungan yang kokoh, dibangun atas dasar rasa hormat, pengertian, dan cinta yang tulus. Mereka cenderung memiliki kestabilan emosional yang baik dan kemampuan untuk menghadapi tantangan hidup dengan kepala dingin. Kehidupan rumah tangga mereka akan diwarnai oleh kedamaian, saling mendukung, dan rasa syukur. Meskipun demikian, mereka tetap harus menjaga api cinta, tidak menganggap enteng hubungan, dan terus berupaya untuk membuat pasangan bahagia. Pesthi adalah anugerah yang harus terus dirawat dengan baik.</p>
+        </section>
+
+        <section>
+            <h2>Karakteristik Umum dan Kecocokan Jodoh Setiap Weton</h2>
+            <p>Selain metode pembagian di atas, Primbon Jawa juga memberikan gambaran mendalam tentang karakteristik setiap weton dan bagaimana karakter tersebut memengaruhi kecocokan jodoh. Memahami watak dasar dari masing-masing weton dapat membantu pasangan untuk lebih memahami dinamika hubungan mereka, mengantisipasi potensi konflik, dan merayakan keunikan satu sama lain. Mari kita jelajahi 35 kombinasi weton beserta karakteristik dan prediksi jodohnya.</p>
+
+            <div class="img-placeholder">
+                [GAMBAR_DISINI: Bagan rumit Primbon Jawa]
+            </div>
+
+            <h3>1. Minggu Legi (Neptu 10)</h3>
+            <p><strong>Watak Umum:</strong> Individu dengan weton Minggu Legi dikenal memiliki watak yang kuat dan berpendirian teguh. Mereka seringkali menjadi pemimpin alami, berwibawa, dan memiliki rasa tanggung jawab yang tinggi. Kelebihan mereka terletak pada kemandirian dan etos kerja yang gigih. Namun, di balik itu, mereka juga bisa menjadi sangat keras kepala, sulit menerima masukan, dan terkadang terlihat egois. Dalam pergaulan, mereka cenderung selektif, namun sangat loyal kepada teman dekat dan keluarga. Mereka memiliki semangat yang membara namun juga sensitif.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 13, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) akan membawa stabilitas dan pengertian. Neptu 13 (Minggu Kliwon, Senin Pahing, Selasa Wage, Jumat Pon, Sabtu Legi) dapat menghadirkan keseimbangan spiritual dan emosional, menciptakan dinamika hubungan yang saling mengisi. Neptu 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan sangat mendukung ambisi dan memberikan kebahagiaan finansial.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12. Kombinasi ini berpotensi memicu konflik karena benturan ego atau perbedaan prinsip yang mendasar. Neptu 7 (Selasa Wage, Jumat Legi) cenderung lebih pasif, sementara neptu 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) bisa sama-sama keras kepala.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Bagi Minggu Legi, penting untuk belajar lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>2. Minggu Pahing (Neptu 14)</h3>
+            <p><strong>Watak Umum:</strong> Minggu Pahing memiliki karakter yang kuat, ambisius, dan memiliki semangat juang yang tinggi. Mereka adalah pribadi yang mandiri, berani mengambil risiko, dan tidak mudah menyerah. Namun, mereka juga bisa menjadi pribadi yang sangat tertutup, misterius, dan sulit ditebak perasaannya. Kecerdasan mereka seringkali diimbangi dengan sifat yang sedikit angkuh dan kurang sabar. Mereka cenderung memendam masalah sendiri.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 11, 12, 16, 18. Pasangan dengan neptu 11 (Senin Pon, Selasa Kliwon, Rabu Wage, Jumat Legi) atau 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) dapat menyeimbangkan sifat ambisius mereka. Neptu 16 dan 18 akan membawa kebahagiaan dan kemakmuran.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan banyak perselisihan dan kesalahpahaman karena sifat mereka yang sama-sama keras kepala atau kurang pengertian terhadap sifat tertutup Minggu Pahing.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Minggu Pahing perlu belajar lebih terbuka dan jujur mengenai perasaan mereka. Mengurangi sifat tertutup dan mau berkompromi akan membuat hubungan lebih harmonis. Pasangan harus sabar dan berusaha memahami kompleksitas emosi Minggu Pahing.</p>
+
+            <h3>3. Minggu Pon (Neptu 12)</h3>
+            <p><strong>Watak Umum:</strong> Individu Minggu Pon dikenal sebagai pribadi yang cerdas, memiliki wawasan luas, dan mudah bergaul. Mereka punya jiwa sosial yang tinggi dan seringkali menjadi pusat perhatian. Namun, mereka juga memiliki sisi yang boros, sedikit sombong, dan cenderung mudah tergoda kemewahan. Sifat mereka yang ceria terkadang menutupi kegelisahan batin yang mereka rasakan. Mereka senang berpetualang dan mencari pengalaman baru.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 12, 16, 17. Pasangan dengan neptu 12 akan menciptakan hubungan yang dinamis dan penuh semangat, meski perlu perhatian agar tidak terlalu boros. Neptu 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) dan 17 (Kamis Pahing, Sabtu Kliwon) akan membawa stabilitas finansial dan mengurangi sifat boros Minggu Pon, serta memberikan arah yang jelas dalam hidup.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Tidak cocok dengan neptu 7, 15, 19. Pasangan dengan neptu ini dapat memicu konflik karena perbedaan prinsip hidup yang mendasar, terutama dalam hal pengelolaan keuangan dan prioritas hidup.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Minggu Pon perlu belajar mengendalikan keinginan dan memprioritaskan kebutuhan daripada keinginan semata. Keterbukaan dalam masalah keuangan dengan pasangan sangat krusial. Pasangan perlu membantu mereka untuk lebih realistis dan bertanggung jawab.</p>
+
+            <h3>4. Minggu Wage (Neptu 9)</h3>
+            <p><strong>Watak Umum:</strong> Minggu Wage dikenal sebagai pribadi yang luwes, ramah, dan pandai beradaptasi. Mereka mudah bergaul dan disenangi banyak orang. Namun, mereka juga memiliki sisi yang mudah tersinggung, cemburuan, dan terkadang kurang percaya diri. Mereka memiliki hati yang lembut namun juga bisa sangat keras kepala jika sudah berpegang pada suatu prinsip. Kesetiaan mereka patut diacungi jempol.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 13, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) atau 13 (Minggu Kliwon, Senin Pahing, Selasa Wage, Jumat Pon, Sabtu Legi) akan mampu meredam sifat mudah tersinggung Minggu Wage dan memberikan rasa aman. Neptu 16 akan membawa keharmonisan dan kemakmuran.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 10, 11, 14. Kombinasi ini dapat menimbulkan masalah karena sifat cemburu Minggu Wage yang sulit dikendalikan atau perbedaan pandangan yang terlalu mencolok.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Minggu Wage perlu belajar mengelola emosi dan meningkatkan rasa percaya diri. Pasangan harus mampu memberikan pengertian dan meyakinkan Minggu Wage bahwa mereka dicintai dan dihargai. Terbuka tentang perasaan masing-masing sangat penting.</p>
+
+            <h3>5. Minggu Kliwon (Neptu 13)</h3>
+            <p><strong>Watak Umum:</strong> Individu Minggu Kliwon adalah pribadi yang cerdas, bijaksana, dan memiliki intuisi yang kuat. Mereka seringkali memiliki kemampuan spiritual yang tinggi dan bisa menjadi penasihat yang baik. Namun, mereka juga memiliki sisi yang pendiam, cenderung tertutup, dan terkadang suka menyendiri. Mereka memiliki prinsip hidup yang kuat dan tidak mudah terpengaruh oleh orang lain. Kejujuran adalah nilai utama bagi mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat pendiam Minggu Kliwon dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Minggu Kliwon perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Minggu Kliwon. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>6. Senin Legi (Neptu 9)</h3>
+            <p><strong>Watak Umum:</strong> Senin Legi dikenal sebagai pribadi yang sabar, ikhlas, dan rendah hati. Mereka adalah pekerja keras dan memiliki dedikasi tinggi terhadap apa yang mereka kerjakan. Namun, mereka juga memiliki sisi yang mudah tersinggung dan kurang percaya diri. Mereka sangat menghargai kejujuran dan kesetiaan, dan akan sangat terluka jika dikhianati. Sosok yang kalem dan menenangkan.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 13, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) atau 13 (Minggu Kliwon, Senin Pahing, Selasa Wage, Jumat Pon, Sabtu Legi) dapat memberikan rasa aman dan mengurangi sifat mudah tersinggung Senin Legi. Neptu 16 akan membawa keharmonisan dan kemakmuran.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 10, 11, 14. Kombinasi ini bisa menimbulkan masalah karena sifat cemburu Senin Legi yang sulit dikendalikan atau perbedaan pandangan yang terlalu mencolok, terutama dalam hal ambisi dan gaya hidup.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Senin Legi perlu belajar mengelola emosi dan meningkatkan rasa percaya diri. Pasangan harus mampu memberikan pengertian dan meyakinkan Senin Legi bahwa mereka dicintai dan dihargai. Terbuka tentang perasaan masing-masing sangat penting.</p>
+
+            <h3>7. Senin Pahing (Neptu 13)</h3>
+            <p><strong>Watak Umum:</strong> Senin Pahing adalah pribadi yang cerdas, kreatif, dan memiliki jiwa seni yang tinggi. Mereka seringkali memiliki ide-ide brilian dan mampu melihat sesuatu dari sudut pandang yang berbeda. Namun, mereka juga memiliki sisi yang moody, mudah cemas, dan terkadang suka menyendiri. Mereka sangat menghargai kebebasan dan tidak suka dikekang. Fleksibilitas adalah kunci dalam berinteraksi dengan mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat moody Senin Pahing dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Senin Pahing perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Senin Pahing. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>8. Senin Pon (Neptu 11)</h3>
+            <p><strong>Watak Umum:</strong> Senin Pon adalah pribadi yang jujur, rendah hati, dan memiliki empati yang tinggi. Mereka sangat peduli terhadap orang lain dan senang membantu. Namun, mereka juga memiliki sisi yang mudah khawatir, sedikit pesimis, dan terkadang kurang percaya diri. Mereka adalah pendengar yang baik dan seringkali menjadi tempat curhat teman-temannya. Loyalitas mereka tidak perlu diragukan.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 12, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) akan memberikan rasa aman dan keyakinan, mengurangi kekhawatiran Senin Pon. Neptu 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan membawa keharmonisan dan saling melengkapi, terutama dalam hal optimisme dan energi.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini dapat memicu konflik karena sifat Senin Pon yang mudah khawatir atau kurang mampu mengatasi tekanan dari pasangan yang lebih dominan.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Senin Pon perlu belajar untuk lebih optimis dan percaya pada kemampuan diri sendiri. Pasangan harus memberikan dukungan moral dan meyakinkan mereka bahwa mereka berharga. Latihan membangun kepercayaan diri bersama akan sangat bermanfaat.</p>
+
+            <h3>9. Senin Wage (Neptu 8)</h3>
+            <p><strong>Watak Umum:</strong> Senin Wage adalah pribadi yang cekatan, pekerja keras, dan memiliki semangat juang yang tinggi. Mereka tidak mudah menyerah dan selalu berusaha mencapai tujuan. Namun, mereka juga memiliki sisi yang sedikit keras kepala, egois, dan terkadang kurang sabar. Mereka memiliki prinsip yang kuat dan tidak suka diperintah. Keseriusan dalam menjalani hidup adalah ciri khas mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat keras kepala Senin Wage dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Senin Wage perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>10. Senin Kliwon (Neptu 12)</h3>
+            <p><strong>Watak Umum:</strong> Senin Kliwon adalah pribadi yang cerdas, berwawasan luas, dan memiliki jiwa kepemimpinan. Mereka memiliki kemampuan untuk memengaruhi orang lain dan seringkali menjadi inspirasi. Namun, mereka juga memiliki sisi yang sedikit sombong, boros, dan mudah tergoda kemewahan. Mereka senang berpetualang dan mencari pengalaman baru, namun juga bisa sangat keras kepala jika sudah berpegang pada suatu prinsip.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 12, 16, 17. Pasangan dengan neptu 12 akan menciptakan hubungan yang dinamis dan penuh semangat, meski perlu perhatian agar tidak terlalu boros. Neptu 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) dan 17 (Kamis Pahing, Sabtu Kliwon) akan membawa stabilitas finansial dan mengurangi sifat boros Senin Kliwon, serta memberikan arah yang jelas dalam hidup.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Tidak cocok dengan neptu 7, 15, 19. Pasangan dengan neptu ini dapat memicu konflik karena perbedaan prinsip hidup yang mendasar, terutama dalam hal pengelolaan keuangan dan prioritas hidup.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Senin Kliwon perlu belajar mengendalikan keinginan dan memprioritaskan kebutuhan daripada keinginan semata. Keterbukaan dalam masalah keuangan dengan pasangan sangat krusial. Pasangan perlu membantu mereka untuk lebih realistis dan bertanggung jawab.</p>
+
+            <h3>11. Selasa Legi (Neptu 8)</h3>
+            <p><strong>Watak Umum:</strong> Selasa Legi adalah pribadi yang jujur, tegas, dan memiliki pendirian yang kuat. Mereka tidak suka basa-basi dan selalu berbicara apa adanya. Namun, mereka juga memiliki sisi yang sedikit keras kepala, mudah tersinggung, dan terkadang kurang sabar. Mereka adalah individu yang pekerja keras dan berani menghadapi tantangan. Integritas adalah nilai penting bagi mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat keras kepala Selasa Legi dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Selasa Legi perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>12. Selasa Pahing (Neptu 12)</h3>
+            <p><strong>Watak Umum:</strong> Selasa Pahing adalah pribadi yang cerdas, inovatif, dan memiliki daya cipta yang tinggi. Mereka seringkali memiliki ide-ide unik dan tidak takut mencoba hal baru. Namun, mereka juga memiliki sisi yang sedikit boros, sombong, dan terkadang kurang sabar. Mereka sangat menghargai kebebasan dan tidak suka dikekang. Semangat mereka untuk belajar dan berkembang sangat kuat.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 12, 16, 17. Pasangan dengan neptu 12 akan menciptakan hubungan yang dinamis dan penuh semangat, meski perlu perhatian agar tidak terlalu boros. Neptu 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) dan 17 (Kamis Pahing, Sabtu Kliwon) akan membawa stabilitas finansial dan mengurangi sifat boros Selasa Pahing, serta memberikan arah yang jelas dalam hidup.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Tidak cocok dengan neptu 7, 15, 19. Pasangan dengan neptu ini dapat memicu konflik karena perbedaan prinsip hidup yang mendasar, terutama dalam hal pengelolaan keuangan dan prioritas hidup.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Selasa Pahing perlu belajar mengendalikan keinginan dan memprioritaskan kebutuhan daripada keinginan semata. Keterbukaan dalam masalah keuangan dengan pasangan sangat krusial. Pasangan perlu membantu mereka untuk lebih realistis dan bertanggung jawab.</p>
+
+            <h3>13. Selasa Pon (Neptu 10)</h3>
+            <p><strong>Watak Umum:</strong> Selasa Pon adalah pribadi yang jujur, berani, dan memiliki semangat yang membara. Mereka tidak takut menghadapi tantangan dan selalu berusaha memberikan yang terbaik. Namun, mereka juga memiliki sisi yang sedikit keras kepala, mudah tersinggung, dan terkadang sulit menerima kritik. Mereka adalah pekerja keras dan memiliki dedikasi tinggi. Loyalitas mereka tidak perlu diragukan.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 13, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) atau 13 (Minggu Kliwon, Senin Pahing, Selasa Wage, Jumat Pon, Sabtu Legi) akan mampu meredam sifat mudah tersinggung Selasa Pon dan memberikan rasa aman. Neptu 16 akan membawa keharmonisan dan kemakmuran.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Selasa Pon perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>14. Selasa Wage (Neptu 7)</h3>
+            <p><strong>Watak Umum:</strong> Selasa Wage adalah pribadi yang pendiam, tenang, dan memiliki jiwa sosial yang tinggi. Mereka tidak suka keramaian dan cenderung menyendiri. Namun, mereka juga memiliki sisi yang mudah tersinggung, sedikit pesimis, dan terkadang kurang percaya diri. Mereka adalah pendengar yang baik dan seringkali menjadi tempat curhat teman-temannya. Kesabaran mereka patut diacungi jempol.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 11, 14. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat membawa keceriaan dan mengurangi sifat pendiam Selasa Wage. Neptu 11 (Senin Pon, Selasa Kliwon, Rabu Wage, Jumat Legi) atau 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 8, 13, 16. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Selasa Wage perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Selasa Wage. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>15. Selasa Kliwon (Neptu 11)</h3>
+            <p><strong>Watak Umum:</strong> Selasa Kliwon adalah pribadi yang cerdas, bijaksana, dan memiliki intuisi yang kuat. Mereka seringkali memiliki kemampuan spiritual yang tinggi dan bisa menjadi penasihat yang baik. Namun, mereka juga memiliki sisi yang pendiam, cenderung tertutup, dan terkadang suka menyendiri. Mereka memiliki prinsip hidup yang kuat dan tidak mudah terpengaruh oleh orang lain. Kejujuran adalah nilai utama bagi mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 12, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) akan memberikan rasa aman dan keyakinan, mengurangi kekhawatiran Selasa Kliwon. Neptu 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan membawa keharmonisan dan saling melengkapi, terutama dalam hal optimisme dan energi.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini dapat memicu konflik karena sifat Selasa Kliwon yang mudah khawatir atau kurang mampu mengatasi tekanan dari pasangan yang lebih dominan.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Selasa Kliwon perlu belajar untuk lebih optimis dan percaya pada kemampuan diri sendiri. Pasangan harus memberikan dukungan moral dan meyakinkan mereka bahwa mereka berharga. Latihan membangun kepercayaan diri bersama akan sangat bermanfaat.</p>
+
+            <h3>16. Rabu Legi (Neptu 12)</h3>
+            <p><strong>Watak Umum:</strong> Rabu Legi adalah pribadi yang cerdas, memiliki wawasan luas, dan mudah bergaul. Mereka punya jiwa sosial yang tinggi dan seringkali menjadi pusat perhatian. Namun, mereka juga memiliki sisi yang boros, sedikit sombong, dan cenderung mudah tergoda kemewahan. Sifat mereka yang ceria terkadang menutupi kegelisahan batin yang mereka rasakan. Mereka senang berpetualang dan mencari pengalaman baru.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 12, 16, 17. Pasangan dengan neptu 12 akan menciptakan hubungan yang dinamis dan penuh semangat, meski perlu perhatian agar tidak terlalu boros. Neptu 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) dan 17 (Kamis Pahing, Sabtu Kliwon) akan membawa stabilitas finansial dan mengurangi sifat boros Rabu Legi, serta memberikan arah yang jelas dalam hidup.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Tidak cocok dengan neptu 7, 15, 19. Pasangan dengan neptu ini dapat memicu konflik karena perbedaan prinsip hidup yang mendasar, terutama dalam hal pengelolaan keuangan dan prioritas hidup.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Rabu Legi perlu belajar mengendalikan keinginan dan memprioritaskan kebutuhan daripada keinginan semata. Keterbukaan dalam masalah keuangan dengan pasangan sangat krusial. Pasangan perlu membantu mereka untuk lebih realistis dan bertanggung jawab.</p>
+
+            <h3>17. Rabu Pahing (Neptu 16)</h3>
+            <p><strong>Watak Umum:</strong> Rabu Pahing adalah pribadi yang cerdas, berwibawa, dan memiliki jiwa kepemimpinan. Mereka memiliki kemampuan untuk memengaruhi orang lain dan seringkali menjadi inspirasi. Namun, mereka juga memiliki sisi yang sedikit angkuh, keras kepala, dan terkadang sulit menerima kritik. Mereka adalah individu yang pekerja keras dan berdedikasi. Mereka memiliki semangat yang membara namun juga sensitif.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat keras kepala Rabu Pahing dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Rabu Pahing perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>18. Rabu Pon (Neptu 14)</h3>
+            <p><strong>Watak Umum:</strong> Rabu Pon memiliki karakter yang kuat, ambisius, dan memiliki semangat juang yang tinggi. Mereka adalah pribadi yang mandiri, berani mengambil risiko, dan tidak mudah menyerah. Namun, mereka juga bisa menjadi pribadi yang sangat tertutup, misterius, dan sulit ditebak perasaannya. Kecerdasan mereka seringkali diimbangi dengan sifat yang sedikit angkuh dan kurang sabar. Mereka cenderung memendam masalah sendiri.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 11, 12, 16, 18. Pasangan dengan neptu 11 (Senin Pon, Selasa Kliwon, Rabu Wage, Jumat Legi) atau 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) dapat menyeimbangkan sifat ambisius mereka. Neptu 16 dan 18 akan membawa kebahagiaan dan kemakmuran.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan banyak perselisihan dan kesalahpahaman karena sifat mereka yang sama-sama keras kepala atau kurang pengertian terhadap sifat tertutup Rabu Pon.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Rabu Pon perlu belajar lebih terbuka dan jujur mengenai perasaan mereka. Mengurangi sifat tertutup dan mau berkompromi akan membuat hubungan lebih harmonis. Pasangan harus sabar dan berusaha memahami kompleksitas emosi Rabu Pon.</p>
+
+            <h3>19. Rabu Wage (Neptu 11)</h3>
+            <p><strong>Watak Umum:</strong> Rabu Wage adalah pribadi yang jujur, rendah hati, dan memiliki empati yang tinggi. Mereka sangat peduli terhadap orang lain dan senang membantu. Namun, mereka juga memiliki sisi yang mudah khawatir, sedikit pesimis, dan terkadang kurang percaya diri. Mereka adalah pendengar yang baik dan seringkali menjadi tempat curhat teman-temannya. Loyalitas mereka tidak perlu diragukan.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 12, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) akan memberikan rasa aman dan keyakinan, mengurangi kekhawatiran Rabu Wage. Neptu 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan membawa keharmonisan dan saling melengkapi, terutama dalam hal optimisme dan energi.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini dapat memicu konflik karena sifat Rabu Wage yang mudah khawatir atau kurang mampu mengatasi tekanan dari pasangan yang lebih dominan.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Rabu Wage perlu belajar untuk lebih optimis dan percaya pada kemampuan diri sendiri. Pasangan harus memberikan dukungan moral dan meyakinkan mereka bahwa mereka berharga. Latihan membangun kepercayaan diri bersama akan sangat bermanfaat.</p>
+
+            <h3>20. Rabu Kliwon (Neptu 15)</h3>
+            <p><strong>Watak Umum:</strong> Rabu Kliwon adalah pribadi yang cerdas, bijaksana, dan memiliki intuisi yang kuat. Mereka seringkali memiliki kemampuan spiritual yang tinggi dan bisa menjadi penasihat yang baik. Namun, mereka juga memiliki sisi yang pendiam, cenderung tertutup, dan terkadang suka menyendiri. Mereka memiliki prinsip hidup yang kuat dan tidak mudah terpengaruh oleh orang lain. Kejujuran adalah nilai utama bagi mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat pendiam Rabu Kliwon dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Rabu Kliwon perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Rabu Kliwon. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>21. Kamis Legi (Neptu 13)</h3>
+            <p><strong>Watak Umum:</strong> Kamis Legi adalah pribadi yang cerdas, kreatif, dan memiliki jiwa seni yang tinggi. Mereka seringkali memiliki ide-ide brilian dan mampu melihat sesuatu dari sudut pandang yang berbeda. Namun, mereka juga memiliki sisi yang moody, mudah cemas, dan terkadang suka menyendiri. Mereka sangat menghargai kebebasan dan tidak suka dikekang. Fleksibilitas adalah kunci dalam berinteraksi dengan mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat moody Kamis Legi dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Kamis Legi perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Kamis Legi. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>22. Kamis Pahing (Neptu 17)</h3>
+            <p><strong>Watak Umum:</strong> Kamis Pahing adalah pribadi yang kuat, berwibawa, dan memiliki jiwa kepemimpinan. Mereka memiliki kemampuan untuk memengaruhi orang lain dan seringkali menjadi inspirasi. Namun, mereka juga memiliki sisi yang sedikit angkuh, keras kepala, dan terkadang sulit menerima kritik. Mereka adalah individu yang pekerja keras dan berdedikasi. Mereka memiliki semangat yang membara namun juga sensitif.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat keras kepala Kamis Pahing dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Kamis Pahing perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>23. Kamis Pon (Neptu 15)</h3>
+            <p><strong>Watak Umum:</strong> Kamis Pon adalah pribadi yang cerdas, bijaksana, dan memiliki intuisi yang kuat. Mereka seringkali memiliki kemampuan spiritual yang tinggi dan bisa menjadi penasihat yang baik. Namun, mereka juga memiliki sisi yang pendiam, cenderung tertutup, dan terkadang suka menyendiri. Mereka memiliki prinsip hidup yang kuat dan tidak mudah terpengaruh oleh orang lain. Kejujuran adalah nilai utama bagi mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat pendiam Kamis Pon dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Kamis Pon perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Kamis Pon. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>24. Kamis Wage (Neptu 12)</h3>
+            <p><strong>Watak Umum:</strong> Kamis Wage adalah pribadi yang cerdas, berwawasan luas, dan mudah bergaul. Mereka punya jiwa sosial yang tinggi dan seringkali menjadi pusat perhatian. Namun, mereka juga memiliki sisi yang boros, sedikit sombong, dan cenderung mudah tergoda kemewahan. Sifat mereka yang ceria terkadang menutupi kegelisahan batin yang mereka rasakan. Mereka senang berpetualang dan mencari pengalaman baru.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 12, 16, 17. Pasangan dengan neptu 12 akan menciptakan hubungan yang dinamis dan penuh semangat, meski perlu perhatian agar tidak terlalu boros. Neptu 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) dan 17 (Kamis Pahing, Sabtu Kliwon) akan membawa stabilitas finansial dan mengurangi sifat boros Kamis Wage, serta memberikan arah yang jelas dalam hidup.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Tidak cocok dengan neptu 7, 15, 19. Pasangan dengan neptu ini dapat memicu konflik karena perbedaan prinsip hidup yang mendasar, terutama dalam hal pengelolaan keuangan dan prioritas hidup.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Kamis Wage perlu belajar mengendalikan keinginan dan memprioritaskan kebutuhan daripada keinginan semata. Keterbukaan dalam masalah keuangan dengan pasangan sangat krusial. Pasangan perlu membantu mereka untuk lebih realistis dan bertanggung jawab.</p>
+
+            <h3>25. Kamis Kliwon (Neptu 16)</h3>
+            <p><strong>Watak Umum:</strong> Kamis Kliwon adalah pribadi yang cerdas, berwibawa, dan memiliki jiwa kepemimpinan. Mereka memiliki kemampuan untuk memengaruhi orang lain dan seringkali menjadi inspirasi. Namun, mereka juga memiliki sisi yang sedikit angkuh, keras kepala, dan terkadang sulit menerima kritik. Mereka adalah individu yang pekerja keras dan berdedikasi. Mereka memiliki semangat yang membara namun juga sensitif.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat keras kepala Kamis Kliwon dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Kamis Kliwon perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>26. Jumat Legi (Neptu 11)</h3>
+            <p><strong>Watak Umum:</strong> Jumat Legi adalah pribadi yang jujur, rendah hati, dan memiliki empati yang tinggi. Mereka sangat peduli terhadap orang lain dan senang membantu. Namun, mereka juga memiliki sisi yang mudah khawatir, sedikit pesimis, dan terkadang kurang percaya diri. Mereka adalah pendengar yang baik dan seringkali menjadi tempat curhat teman-temannya. Loyalitas mereka tidak perlu diragukan.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 12, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) akan memberikan rasa aman dan keyakinan, mengurangi kekhawatiran Jumat Legi. Neptu 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan membawa keharmonisan dan saling melengkapi, terutama dalam hal optimisme dan energi.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini dapat memicu konflik karena sifat Jumat Legi yang mudah khawatir atau kurang mampu mengatasi tekanan dari pasangan yang lebih dominan.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Jumat Legi perlu belajar untuk lebih optimis dan percaya pada kemampuan diri sendiri. Pasangan harus memberikan dukungan moral dan meyakinkan mereka bahwa mereka berharga. Latihan membangun kepercayaan diri bersama akan sangat bermanfaat.</p>
+
+            <h3>27. Jumat Pahing (Neptu 15)</h3>
+            <p><strong>Watak Umum:</strong> Jumat Pahing adalah pribadi yang cerdas, bijaksana, dan memiliki intuisi yang kuat. Mereka seringkali memiliki kemampuan spiritual yang tinggi dan bisa menjadi penasihat yang baik. Namun, mereka juga memiliki sisi yang pendiam, cenderung tertutup, dan terkadang suka menyendiri. Mereka memiliki prinsip hidup yang kuat dan tidak mudah terpengaruh oleh orang lain. Kejujuran adalah nilai utama bagi mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat pendiam Jumat Pahing dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Jumat Pahing perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Jumat Pahing. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>28. Jumat Pon (Neptu 13)</h3>
+            <p><strong>Watak Umum:</strong> Jumat Pon adalah pribadi yang cerdas, kreatif, dan memiliki jiwa seni yang tinggi. Mereka seringkali memiliki ide-ide brilian dan mampu melihat sesuatu dari sudut pandang yang berbeda. Namun, mereka juga memiliki sisi yang moody, mudah cemas, dan terkadang suka menyendiri. Mereka sangat menghargai kebebasan dan tidak suka dikekang. Fleksibilitas adalah kunci dalam berinteraksi dengan mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat moody Jumat Pon dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Jumat Pon perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Jumat Pon. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>29. Jumat Wage (Neptu 10)</h3>
+            <p><strong>Watak Umum:</strong> Jumat Wage dikenal memiliki watak yang kuat dan berpendirian teguh. Mereka seringkali menjadi pemimpin alami, berwibawa, dan memiliki rasa tanggung jawab yang tinggi. Kelebihan mereka terletak pada kemandirian dan etos kerja yang gigih. Namun, di balik itu, mereka juga bisa menjadi sangat keras kepala, sulit menerima masukan, dan terkadang terlihat egois. Dalam pergaulan, mereka cenderung selektif, namun sangat loyal kepada teman dekat dan keluarga. Mereka memiliki semangat yang membara namun juga sensitif.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 8, 13, 16. Pasangan dengan neptu 8 (Minggu Pon, Selasa Legi) akan membawa stabilitas dan pengertian. Neptu 13 (Minggu Kliwon, Senin Pahing, Selasa Wage, Jumat Pon, Sabtu Legi) dapat menghadirkan keseimbangan spiritual dan emosional, menciptakan dinamika hubungan yang saling mengisi. Neptu 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan sangat mendukung ambisi dan memberikan kebahagiaan finansial.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12. Kombinasi ini berpotensi memicu konflik karena benturan ego atau perbedaan prinsip yang mendasar. Neptu 7 (Selasa Wage, Jumat Legi) cenderung lebih pasif, sementara neptu 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) bisa sama-sama keras kepala.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Bagi Jumat Wage, penting untuk belajar lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>30. Jumat Kliwon (Neptu 14)</h3>
+            <p><strong>Watak Umum:</strong> Jumat Kliwon memiliki karakter yang kuat, ambisius, dan memiliki semangat juang yang tinggi. Mereka adalah pribadi yang mandiri, berani mengambil risiko, dan tidak mudah menyerah. Namun, mereka juga bisa menjadi pribadi yang sangat tertutup, misterius, dan sulit ditebak perasaannya. Kecerdasan mereka seringkali diimbangi dengan sifat yang sedikit angkuh dan kurang sabar. Mereka cenderung memendam masalah sendiri.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 11, 12, 16, 18. Pasangan dengan neptu 11 (Senin Pon, Selasa Kliwon, Rabu Wage, Jumat Legi) atau 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) dapat menyeimbangkan sifat ambisius mereka. Neptu 16 dan 18 akan membawa kebahagiaan dan kemakmuran.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan banyak perselisihan dan kesalahpahaman karena sifat mereka yang sama-sama keras kepala atau kurang pengertian terhadap sifat tertutup Jumat Kliwon.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Jumat Kliwon perlu belajar lebih terbuka dan jujur mengenai perasaan mereka. Mengurangi sifat tertutup dan mau berkompromi akan membuat hubungan lebih harmonis. Pasangan harus sabar dan berusaha memahami kompleksitas emosi Jumat Kliwon.</p>
+
+            <h3>31. Sabtu Legi (Neptu 14)</h3>
+            <p><strong>Watak Umum:</strong> Sabtu Legi memiliki karakter yang kuat, ambisius, dan memiliki semangat juang yang tinggi. Mereka adalah pribadi yang mandiri, berani mengambil risiko, dan tidak mudah menyerah. Namun, mereka juga bisa menjadi pribadi yang sangat tertutup, misterius, dan sulit ditebak perasaannya. Kecerdasan mereka seringkali diimbangi dengan sifat yang sedikit angkuh dan kurang sabar. Mereka cenderung memendam masalah sendiri.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 11, 12, 16, 18. Pasangan dengan neptu 11 (Senin Pon, Selasa Kliwon, Rabu Wage, Jumat Legi) atau 12 (Minggu Pon, Senin Kliwon, Selasa Pahing, Rabu Legi, Kamis Wage) dapat menyeimbangkan sifat ambisius mereka. Neptu 16 dan 18 akan membawa kebahagiaan dan kemakmuran.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan banyak perselisihan dan kesalahpahaman karena sifat mereka yang sama-sama keras kepala atau kurang pengertian terhadap sifat tertutup Sabtu Legi.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Sabtu Legi perlu belajar lebih terbuka dan jujur mengenai perasaan mereka. Mengurangi sifat tertutup dan mau berkompromi akan membuat hubungan lebih harmonis. Pasangan harus sabar dan berusaha memahami kompleksitas emosi Sabtu Legi.</p>
+
+            <h3>32. Sabtu Pahing (Neptu 18)</h3>
+            <p><strong>Watak Umum:</strong> Sabtu Pahing adalah pribadi yang sangat kuat, berwibawa, dan memiliki jiwa kepemimpinan yang tinggi. Mereka memiliki kemampuan untuk memengaruhi orang lain dan seringkali menjadi inspirasi. Namun, mereka juga memiliki sisi yang sedikit angkuh, keras kepala, dan terkadang sulit menerima kritik. Mereka adalah individu yang pekerja keras dan berdedikasi. Mereka memiliki semangat yang membara namun juga sensitif.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat keras kepala Sabtu Pahing dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Sabtu Pahing perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>33. Sabtu Pon (Neptu 16)</h3>
+            <p><strong>Watak Umum:</strong> Sabtu Pon adalah pribadi yang cerdas, berwibawa, dan memiliki jiwa kepemimpinan. Mereka memiliki kemampuan untuk memengaruhi orang lain dan seringkali menjadi inspirasi. Namun, mereka juga memiliki sisi yang sedikit angkuh, keras kepala, dan terkadang sulit menerima kritik. Mereka adalah individu yang pekerja keras dan berdedikasi. Mereka memiliki semangat yang membara namun juga sensitif.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat keras kepala Sabtu Pon dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Sabtu Pon perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+            <h3>34. Sabtu Wage (Neptu 13)</h3>
+            <p><strong>Watak Umum:</strong> Sabtu Wage adalah pribadi yang cerdas, kreatif, dan memiliki jiwa seni yang tinggi. Mereka seringkali memiliki ide-ide brilian dan mampu melihat sesuatu dari sudut pandang yang berbeda. Namun, mereka juga memiliki sisi yang moody, mudah cemas, dan terkadang suka menyendiri. Mereka sangat menghargai kebebasan dan tidak suka dikekang. Fleksibilitas adalah kunci dalam berinteraksi dengan mereka.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat moody Sabtu Wage dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 12, 15. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Sabtu Wage perlu belajar untuk lebih terbuka dan mau berbagi perasaan dengan pasangan. Pasangan harus sabar dan berusaha menyelami kedalaman batin Sabtu Wage. Mencari kegiatan bersama yang meningkatkan koneksi emosional akan sangat membantu.</p>
+
+            <h3>35. Sabtu Kliwon (Neptu 17)</h3>
+            <p><strong>Watak Umum:</strong> Sabtu Kliwon adalah pribadi yang kuat, berwibawa, dan memiliki jiwa kepemimpinan yang tinggi. Mereka memiliki kemampuan untuk memengaruhi orang lain dan seringkali menjadi inspirasi. Namun, mereka juga memiliki sisi yang sedikit angkuh, keras kepala, dan terkadang sulit menerima kritik. Mereka adalah individu yang pekerja keras dan berdedikasi. Mereka memiliki semangat yang membara namun juga sensitif.</p>
+            <p><strong>Kecocokan Jodoh (Neptu Pasangan Ideal):</strong> Sangat cocok dengan neptu 10, 14, 16. Pasangan dengan neptu 10 (Minggu Legi, Jumat Legi) dapat mengimbangi sifat keras kepala Sabtu Kliwon dan membawa keceriaan. Neptu 14 (Minggu Pahing, Rabu Pon, Jumat Kliwon, Sabtu Wage) atau 16 (Rabu Pahing, Kamis Kliwon, Sabtu Pon) akan memberikan dukungan emosional dan spiritual yang kuat, menciptakan hubungan yang mendalam dan harmonis.</p>
+            <p><strong>Tantangan Jodoh (Neptu Pasangan Kurang Ideal):</strong> Kurang cocok dengan neptu 7, 15, 17. Kombinasi ini bisa menimbulkan konflik karena perbedaan pandangan hidup yang tajam, terutama dalam hal spiritualitas atau keterbukaan emosional.</p>
+            <p><strong>Saran dan Mitigasi:</strong> Sabtu Kliwon perlu belajar untuk lebih fleksibel dan terbuka terhadap pandangan orang lain. Komunikasi yang jujur dan empati akan sangat membantu melunakkan sifat keras kepala mereka. Dengan pasangan yang kurang cocok, perlu upaya ekstra untuk memahami sudut pandang masing-masing dan menemukan titik temu.</p>
+
+        </section>
+
+        <section class="section-card">
+            <h2>Lebih dari Sekadar Angka: Kearifan di Balik Ramalan Jodoh Weton</h2>
+            <p>Meskipun metode perhitungan weton memberikan kerangka kerja yang jelas, penting untuk diingat bahwa ramalan jodoh ini bukanlah takdir yang mutlak. Ini adalah sebuah panduan, cerminan dari kearifan lokal yang telah teruji waktu, untuk memahami potensi dan tantangan dalam suatu hubungan. Leluhur Jawa percaya bahwa dengan memahami potensi ini, kita dapat mengambil langkah-langkah proaktif untuk membangun hubungan yang lebih kuat dan harmonis.</p>
+
+            <h3>Pentingnya Komunikasi dan Kompromi</h3>
+            <p>Apapun hasil perhitungan weton Anda dan pasangan, kunci utama keberhasilan suatu hubungan tetaplah terletak pada komunikasi yang jujur dan terbuka, serta kesediaan untuk berkompromi. Setiap individu memiliki keunikan, dan weton hanyalah salah satu cerminan dari keunikan tersebut. Memahami watak dasar pasangan dari weton mereka dapat menjadi pintu gerbang untuk lebih berempati, mencari cara berkomunikasi yang efektif, dan menemukan solusi bersama atas setiap perbedaan.</p>
+
+            <div class="img-placeholder">
+                [GAMBAR_DISINI: Ilustrasi pasangan sedang berkomunikasi]
+            </div>
+
+            <h3>Cinta dan Usaha Manusiawi</h3>
+            <p>Primbon Jawa sendiri juga mengajarkan bahwa 'takdir' dapat diupayakan atau diubah melalui 'laku' atau tindakan nyata. Jika hasil ramalan weton menunjukkan kategori yang kurang baik seperti Pegat atau Sujanan, bukan berarti hubungan tersebut pasti akan berakhir buruk. Justru, ini adalah peringatan dini dan motivasi untuk melakukan usaha lebih keras. Misalnya, jika ada potensi Pegat, pasangan mungkin perlu lebih fokus pada stabilitas ekonomi, atau jika Sujanan, mereka harus memperkuat komitmen dan kepercayaan satu sama lain.</p>
+
+            <p>Cinta sejati dibangun atas dasar saling pengertian, rasa hormat, kepercayaan, dan komitmen yang tak tergoyahkan. Ramalan weton adalah alat bantu untuk navigasi, bukan peta yang tak bisa diubah. Pada akhirnya, kebahagiaan rumah tangga adalah hasil dari upaya bersama, kesabaran, dan kemampuan untuk tumbuh bersama melalui setiap tantangan.</p>
+
+            <h3>Peran Nilai-nilai Spiritual dan Moral</h3>
+            <p>Dalam tradisi Jawa, pernikahan bukan hanya penyatuan dua individu, melainkan juga penyatuan dua keluarga dan dua 'bibit' yang diharapkan dapat melahirkan generasi penerus yang baik. Oleh karena itu, selain weton, nilai-nilai spiritual dan moral juga memegang peranan sangat penting. Agama, etika, dan adab menjadi pondasi kuat yang melampaui perhitungan angka semata. Pasangan yang memiliki kesamaan pandangan dalam hal-hal fundamental ini cenderung memiliki hubungan yang lebih kokoh.</p>
+
+            <p>Memahami dan menghormati tradisi seperti ramalan jodoh weton adalah bagian dari melestarikan warisan budaya. Namun, dalam konteks modern, kita juga perlu bijak dalam menempatkannya. Gunakanlah sebagai wawasan tambahan yang memperkaya pemahaman Anda tentang pasangan dan diri sendiri, bukan sebagai penentu tunggal nasib hubungan Anda.</p>
+        </section>
+
+        <section>
+            <h2>Kesimpulan: Menemukan Harmoni dalam Cinta Berbasis Kearifan Lokal</h2>
+            <p>Ramalan jodoh weton merupakan salah satu permata kearifan lokal Jawa yang tak lekang oleh waktu. Dengan sistem perhitungan neptu yang kompleks dan interpretasi yang mendalam, tradisi ini menawarkan panduan berharga bagi setiap pasangan yang ingin meniti bahtera rumah tangga. Dari perhitungan Pegat hingga Pesthi, setiap kategori memberikan gambaran potensi dan tantangan yang mungkin dihadapi, sekaligus menjadi pengingat akan pentingnya usaha dan kesadaran dalam menjaga keharmonisan.</p>
+
+            <p>Memahami karakteristik setiap weton, baik itu Minggu Legi yang berwibawa, Selasa Wage yang pendiam, atau Sabtu Pahing yang berjiwa pemimpin, membuka jendela untuk lebih mengenal diri sendiri dan pasangan. Ini membantu kita menyadari kekuatan dan kelemahan masing-masing, sehingga dapat saling melengkapi dan mendukung dalam setiap fase kehidupan. Lebih dari sekadar angka, ramalan weton mengajarkan kita tentang keseimbangan, harmoni, dan pentingnya adaptasi dalam hubungan.</p>
+
+            <p>Pada akhirnya, meskipun weton dapat menjadi kompas penunjuk arah, kemudi utama bahtera rumah tangga tetap berada di tangan Anda dan pasangan. Keberhasilan dan kebahagiaan pernikahan ditentukan oleh seberapa besar cinta, pengertian, komunikasi, dan komitmen yang Anda berikan. Jadikan ramalan jodoh weton sebagai inspirasi untuk terus belajar, beradaptasi, dan berjuang bersama, demi menciptakan ikatan cinta yang langgeng, harmonis, dan penuh berkah. Semoga perjalanan cinta Anda selalu dipenuhi kebahagiaan dan pengertian yang mendalam, selaras dengan kearifan alam dan leluhur.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Hak Cipta Dilindungi Undang-Undang. Semua informasi disajikan untuk tujuan edukasi dan hiburan.</p>
+    </footer>
+</body>
+</html>
